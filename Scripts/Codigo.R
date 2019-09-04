@@ -8,3 +8,15 @@ df
 # 1. mean () // sacar el promedio en un dataframe
 mean_jump <- mean(df[["jump_count"]])
 mean_jump
+help (read.table)
+# ls () --> para saber en que parte del programa me encuentro
+#  para que una funcion tenga un argumento opcional es necesario igualo a 1
+
+# Finish the pow_two() function
+pow_two <- function(x,print_info=TRUE ) {
+  y <- x ^ 2
+  if  (print_info) 
+    print(paste(x, "to the power two equals", y))
+  return(y) }
+sum (5,5)
+
